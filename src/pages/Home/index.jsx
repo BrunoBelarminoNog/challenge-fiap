@@ -16,6 +16,7 @@ function Home() {
     if (isAuth) {
       history.push("/apresentacao");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuth]);
 
   const handleOpenApresentation = () => {

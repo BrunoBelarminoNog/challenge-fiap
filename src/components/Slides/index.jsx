@@ -4,8 +4,8 @@ import * as S from "./styles";
 import { SLIDES_ON } from "./data";
 
 const SlidesWrapper = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [stepsMap, setStepsMap] = useState([...SLIDES_ON]);
+  const [currentSlide] = useState(0);
+  const [stepsMap] = useState([...SLIDES_ON]);
 
   useEffect(() => {}, []);
 
