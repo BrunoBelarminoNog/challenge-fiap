@@ -26,8 +26,7 @@ export const GlobalStyles = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        color: var(--black);
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     ol, ul {
         list-style: none;
@@ -43,7 +42,6 @@ export const GlobalStyles = createGlobalStyle`
         outline: none;
     }
     body {
-        padding-top: 19px;
     }
 
     /* scrollbar style */

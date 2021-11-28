@@ -2,6 +2,10 @@ import { css } from "styled-components";
 
 export const Paleta = css`
   :root {
+    --primary: #00a1e4;
+    --primary-hover: #0077cc;
+    --accent: #303030;
+    --secondary: #8e8e8e;
     --white: #fff;
     --black: #0c0d0e;
     --orange: #f48024;

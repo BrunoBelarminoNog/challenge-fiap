@@ -1,12 +1,13 @@
-import Header from "./components/Header";
+import Providers from "./context";
 import Routes from "./routes";
-import {GlobalStyles} from './styles/global';
+import { GlobalStyles } from "./styles/global";
 function App() {
   return (
     <>
-      <Header />
-      <Routes />
-      <GlobalStyles />
+      <Providers>
+        <Routes />
+        <GlobalStyles />
+      </Providers>
     </>
   );
 }
